@@ -115,18 +115,16 @@ main > section{
 .feature-card{
   padding: 30px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 8px;
 }
 .feature-card , .feature-title{
-  font-weight: 600px;
-  font-size: 1.25rem;
+  font-weight: 500px;
+  font-size: 1.07rem;
   /* margin-top: 0px; */
   /* margin-bottom: 0px; */
 }
-.feature-architect img{
-  width: 100%;
-}
+
 #experience-badge{
   padding: 45px 42px;
   font-size: 1.5rem;
@@ -181,6 +179,24 @@ main > section{
   filter: grayscale(100%);
 }
 
+/* footer related style */
+#fot{
+  max-width: 1440px;
+  /* border: 1px solid red; */
+  /* justify-content: center; */
+  justify-items: center;
+  margin: 130px 240px;
+
+}
+.footer-title{
+  padding: 30px 350px;
+  font-size: 20px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+  background-color: #FFF4E7;
+}
+
 
 /* responsive media quary */
 @media screen and (max-width: 576px) {
@@ -215,6 +231,16 @@ main > section{
     margin-left: 20px;
     
   }
+  .feature-architect img{
+  width: 100%;
+}
+#fot {
+  padding: 25px 10px;
+}
+#fot .footer-title{
+  font-size: 14px;
+  line-height: 1.5;
+}
 }
 
 /* media size device */
@@ -242,4 +268,7 @@ main > section{
     margin-left: 20px;
     
   }
+  .feature-architect img{
+  width: 100%;
+}
 }
